@@ -1,0 +1,68 @@
+2026-11-04 20:19:43,276 INFO talento_tech - Iniciando prueba de login
+2026-11-04 20:19:43,564 INFO talento_tech - Página de login abierta
+2026-11-04 20:19:43,778 INFO talento_tech - Ingreso de credenciales
+2026-11-04 20:19:43,832 INFO talento_tech - Login exitoso
+2026-11-04 20:19:47,188 INFO talento_tech - Iniciando prueba de login
+2026-11-04 20:19:47,471 INFO talento_tech - Página de login abierta
+2026-11-04 20:19:47,671 INFO talento_tech - Ingreso de credenciales
+2026-11-04 20:19:47,696 ERROR talento_tech - Error durante la prueba de login
+Traceback (most recent call last):
+  File "C:\Users\Alejandra\Documents\AUTOMATION\curso-automation-testing\preentrega\tests\test_login.py", line 31, in test_login_exitoso
+    assert "Epic sadfacesarasa" in error
+AssertionError: assert 'Epic sadfacesarasa' in 'Epic sadface: Username and password do not match any user in this service'
+2026-11-04 20:20:01,216 INFO talento_tech - Iniciando prueba de login
+2026-11-04 20:20:01,481 INFO talento_tech - Página de login abierta
+2026-11-04 20:20:01,704 INFO talento_tech - Ingreso de credenciales
+2026-11-04 20:20:01,731 ERROR talento_tech - Error durante la prueba de login
+Traceback (most recent call last):
+  File "C:\Users\Alejandra\Documents\AUTOMATION\curso-automation-testing\preentrega\tests\test_login.py", line 31, in test_login_exitoso
+    assert "Epic sadfacesarasa" in error
+AssertionError: assert 'Epic sadfacesarasa' in 'Epic sadface: Username and password do not match any user in this service'
+2026-11-04 20:20:15,190 INFO talento_tech - Iniciando prueba de login
+2026-11-04 20:20:15,456 INFO talento_tech - Página de login abierta
+2026-11-04 20:20:15,652 INFO talento_tech - Ingreso de credenciales
+2026-11-04 20:20:15,677 ERROR talento_tech - Error durante la prueba de login
+Traceback (most recent call last):
+  File "C:\Users\Alejandra\Documents\AUTOMATION\curso-automation-testing\preentrega\tests\test_login.py", line 31, in test_login_exitoso
+    assert "Epic sadfacesarasa" in error
+AssertionError: assert 'Epic sadfacesarasa' in 'Epic sadface: Username and password do not match any user in this service'
+2026-11-04 20:20:29,090 INFO talento_tech - Iniciando prueba de login
+2026-11-04 20:20:29,362 INFO talento_tech - Página de login abierta
+2026-11-04 20:20:29,565 INFO talento_tech - Ingreso de credenciales
+2026-11-04 20:20:29,589 ERROR talento_tech - Error durante la prueba de login
+Traceback (most recent call last):
+  File "C:\Users\Alejandra\Documents\AUTOMATION\curso-automation-testing\preentrega\tests\test_login.py", line 31, in test_login_exitoso
+    assert "Epic sadfacesarasa" in error
+AssertionError: assert 'Epic sadfacesarasa' in 'Epic sadface: Username and password do not match any user in this service'
+2026-11-04 20:20:32,966 INFO talento_tech - Iniciando prueba de login
+2026-11-04 20:20:33,242 INFO talento_tech - Página de login abierta
+2026-11-04 20:20:33,443 INFO talento_tech - Ingreso de credenciales
+2026-11-04 20:20:33,466 ERROR talento_tech - Error durante la prueba de login
+Traceback (most recent call last):
+  File "C:\Users\Alejandra\Documents\AUTOMATION\curso-automation-testing\preentrega\tests\test_login.py", line 31, in test_login_exitoso
+    assert "Epic sadfacesarasa" in error
+AssertionError: assert 'Epic sadfacesarasa' in 'Epic sadface: Username and password do not match any user in this service'
+2026-11-04 20:20:46,817 INFO talento_tech - Iniciando prueba de login
+2026-11-04 20:20:47,093 INFO talento_tech - Página de login abierta
+2026-11-04 20:20:47,297 INFO talento_tech - Ingreso de credenciales
+2026-11-04 20:20:47,321 ERROR talento_tech - Error durante la prueba de login
+Traceback (most recent call last):
+  File "C:\Users\Alejandra\Documents\AUTOMATION\curso-automation-testing\preentrega\tests\test_login.py", line 31, in test_login_exitoso
+    assert "Epic sadfacesarasa" in error
+AssertionError: assert 'Epic sadfacesarasa' in 'Epic sadface: Username and password do not match any user in this service'
+2026-11-04 20:21:00,829 INFO talento_tech - Iniciando prueba de login
+2026-11-04 20:21:01,147 INFO talento_tech - Página de login abierta
+2026-11-04 20:21:01,359 INFO talento_tech - Ingreso de credenciales
+2026-11-04 20:21:01,386 ERROR talento_tech - Error durante la prueba de login
+Traceback (most recent call last):
+  File "C:\Users\Alejandra\Documents\AUTOMATION\curso-automation-testing\preentrega\tests\test_login.py", line 31, in test_login_exitoso
+    assert "Epic sadfacesarasa" in error
+AssertionError: assert 'Epic sadfacesarasa' in 'Epic sadface: Username and password do not match any user in this service'
+2026-11-04 20:21:14,797 INFO talento_tech - Iniciando prueba de login
+2026-11-04 20:21:15,082 INFO talento_tech - Página de login abierta
+2026-11-04 20:21:15,279 INFO talento_tech - Ingreso de credenciales
+2026-11-04 20:21:15,304 ERROR talento_tech - Error durante la prueba de login
+Traceback (most recent call last):
+  File "C:\Users\Alejandra\Documents\AUTOMATION\curso-automation-testing\preentrega\tests\test_login.py", line 31, in test_login_exitoso
+    assert "Epic sadfacesarasa" in error
+AssertionError: assert 'Epic sadfacesarasa' in 'Epic sadface: Username and password do not match any user in this service'

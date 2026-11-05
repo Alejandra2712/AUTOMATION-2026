@@ -1,9 +1,31 @@
 from selenium.webdriver.common.by import By
-
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 class LoginPage:
     def __init__(self, driver):
         self.driver = driver
+        self.wait = WebDriverWait(driver, 10)  # Tiempo de espera explícito para esperar a que los elementos estén disponibles
+    
+    def abrir_pagina(self):
+        self.driver.get("https://www.saucedemo.com")
+        self.wait.until(EC.presence_of_element_located((By.ID, "user-name")))
+        
     def ingresar_usuario(self,usuario):
-       self.driver.find_element(By.ID, "user-name")
-       self.driver.find_element(By.ID, "password")
-       self.driver.find_element(By.ID, "login-button")
+       self.wait.until(EC.presence_of_element_located((By.ID, "user-name"))).send_keys(usuario)
+       
+    def ingresar_password(self,password):
+       self.driver.find_element(By.ID, "password").send_keys(password)
+       
+    def hacer_click_en_login(self):
+       self.driver.find_element(By.ID, "login-button").click()
+   
+    def obtener_mensaje_error(self):
+       texto_error =self.wait.until(EC.visibility_of_element_located((By.CSS_SELECTOR, ".error > h3")))
+       return texto_error.text
+       
+    def login(self, usuario, password):  
+       self.ingresar_usuario(usuario)
+       self.ingresar_password(password)
+       self.hacer_click_en_login()
+       
+  
