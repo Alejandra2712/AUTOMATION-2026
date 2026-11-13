@@ -7,7 +7,8 @@ import pytest_html
 @pytest.fixture
 def driver():
     options = webdriver.ChromeOptions()
-    options.add_argument("--incognito")
+    options.add_argument("--headless=new")  # Ejecutar en modo headless (sin interfaz gráfica)
+    options.add_argument("--incognito") # Ejecutar en modo incógnito
     driver = webdriver.Chrome(options=options)
     
     driver.implicitly_wait(10)
